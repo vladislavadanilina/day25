@@ -17,17 +17,12 @@ html, body {
 main {
     font-family: 'Lato', sans-serif;
     font-weight: 200;
-    width: 140rem;
-    height: 94rem;
+    width: 99%;
     margin: 0 auto;
+    margin-top:1.5%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     padding: 12rem;
     font-size: 1.8rem;
-}
-
-.content {
-    width: 120rem;
-    height: 70rem;
 }
 
 article {
@@ -40,24 +35,35 @@ h1 {
     font-size: 4.2rem;
 }
 
-p.capital:first-letter {
+p.first:first-letter {
     font-family: 'Playfair Display', sans-serif;
-    margin: 1.5rem 1.5rem 0 0;
+    margin:2.5rem  2rem 2rem 0;
     float: left;
     font-size: 11rem;
     display: inline-block;
 
 }
 
-blockquote {
+i{
     font-style: italic;
     font-size: 2.4rem;
 }
+i:before{
+    content: "“ ";
+    font-size: 4rem;
+}
 
-h3 {
+a {
+    margin: 3rem 0;
+    text-decoration: none;
+    cursor: pointer;
     display: inline-block;
-    padding: 2.5rem 7.5rem;
-    font-weight: bold;
-    border: 1px solid #eaa258;
+    padding: 2.5rem 9.5rem;
+    text-transform: uppercase;
+    border: 2px solid #eaa258;
     color: #eaa258;
 }
+a:hover {
+  color: #EC5A62;
+  background: rgba(118, 117, 128, 0.1);
+  }
