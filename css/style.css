@@ -35,7 +35,7 @@ h1 {
     font-size: 4.2rem;
 }
 
-p.first:first-letter {
+p:first-of-type:first-letter {
     font-family: 'Playfair Display', sans-serif;
     margin:2.5rem  2rem 2rem 0;
     float: left;
